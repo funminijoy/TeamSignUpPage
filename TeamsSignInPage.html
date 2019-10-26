@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>SignIn Page</title>
+    <style>
+    body{
+        background-color:#aca8a859;
+    }
+
+    .signin{
+     margin:35px 0px 0px 500px; 
+     height: 60vh;
+    }
+    
+    .team{
+        margin: 30px 0 0 85px;
+        
+    }
+
+    .email{
+        width: 100%;
+        background-clip:#aca8a859;
+        align-content: center;
+        height: 45px;
+        border: none;
+        border-radius:2px;
+        background-color: rgb(220, 220, 228);
+        margin-top: 20px
+
+    }
+    .signinButton{
+        width: 100%;
+        align-content: center;
+        height: 45px;
+        background-color: rgb(98, 100, 167);
+        border: none;
+        border-radius:2px;
+    }
+
+    #microsoft{
+        text-align: center;
+        color: rgb(98, 100, 167);
+        font-size:20px;
+        padding: 25px 0 0 0;
+        font-weight: 800px;
+    }
+    .link{
+        color: rgb(98, 100, 167);
+        text-decoration: none;
+    }
+
+    .learn{
+        /* color:; */
+        text-align: center;
+        margin-top: 110px;
+    }
+
+    .signup{
+        background-color: white;
+        padding: 7px;
+        border: none;
+        font-weight: 400;
+        text-align: center;
+        margin:  15px 0 15px 700px;
+    }
+    </style>
+</head>
+<body>
+    <div id="microsoft">Microsoft Teams</div>
+    <div class="row signin">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <img src="image/team.png" class="team" width="250px" height="250px">
+              <h5 class="card-title" style="text-align:center; padding-top: 40px; font-weight: 700; font-size: 25px;">Enter your work, school, or <br> microsoft acount</h5>
+              <input class="email" type="email">
+              <button type="button" class="signinButton" style="margin-top: 15px;">Sign in</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <div class="learn"><span>Not on Teams yet?</span><a href="#" class="link">Learn more</a></div>
+        <button class="signup"><b>Sign up for free</b></button>
+</body>
+</html>
